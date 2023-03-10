@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+
+*, html, body {
+    font-family: 'Tajawal', sans-serif !important;
+}
+
+.card-body .text-hover-primary {
+    font-size: 18px;
+}
+
+div.dataTables_wrapper div.dataTables_filter {
+    text-align: left;
+}
+
+div.dataTables_wrapper div.dataTables_filter input {
+    margin-left: 0;
+    margin-right: 15px;
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    margin: 0 10px;
+}
+
+.table-image {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 0;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.table-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.status-lab {
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+}
+
+#kt_datatable_3_paginate .pagination {
+    justify-content: flex-end;
+}
+
+div.dataTables_wrapper div.dataTables_length select,
+div.dataTables_wrapper div.dataTables_filter input {
+    display: inline-block !important;
+    width: auto !important;
+}
+
+.bg-ifors {
+    background-color: #C9F7F5;
+}
+div.dataTables_wrapper div.dataTables_processing {
+    background: #EEE;
+    z-index: 99;
+    font-size: 16px;
+    font-weight: 700;
+}

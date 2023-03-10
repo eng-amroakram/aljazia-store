@@ -1,0 +1,204 @@
+@font-face {
+    src: url(../fonts/Tajawal-Regular.ttf);
+    font-family: 'main';
+}
+
+* {
+    font-family: 'main', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .section-title h3, .why-us h3, .main-features .one-feature h5, .recent-news .recent-news-slider .item h3, .download-app h2, .git-in-touch .contact-info .info-box h5, .git-in-touch .contact-info .info-box a, .blog-page .blog-box .blog-details h3 a, aside.sidebar .categories ul li a, aside.sidebar .recent-post .post h4 a, aside.sidebar .tags ul li a, .single-blog-page .blog-box .blog-details h3,
+a, .btn-white, .lnr, .section-title h3 span, .other-features .other-features-slider .item h4, .clients-testimonial .testimonial-slider .item .client-info h3, .fun-facts .fact-box h5, .fun-facts .fact-box h6, .prices .price-table .top h4, .prices .price-table .top h3, .prices .price-table .top h5, .our-team .team-slider .person h3, footer .subscribe .subscribe-form h4, .blog-page .blog-box:hover .blog-details h3 a, .single-blog-page .blog-box .post-tag-area ul li a:hover, .comments-container .comments-list li .reply:hover {
+    color: #F3DA4C !important;
+}
+
+.slide::after {
+    border-left: 100vw solid #fff;
+    border-right: none;
+}
+
+.main-features .left-side .one-feature span {
+    float: none;
+}
+
+.main-features .right-side .one-feature span {
+    float: none;
+}
+
+.main-features .left-side .one-feature:nth-child(1), .main-features .left-side .one-feature:nth-child(3) {
+    left: auto;
+    right: 50px;
+}
+
+.main-features .right-side .one-feature:nth-child(1), .main-features .right-side .one-feature:nth-child(3) {
+    left: 50px;
+    right: auto;
+}
+
+.one-feature img {
+    height: 40px;
+    display: block;
+}
+
+.main-features .one-feature h5 {
+    margin: 15px 0;
+    line-height: 1.5;
+    display: block;
+}
+
+.download-app a {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+.blog-details ul {
+    list-style-type: circle;
+}
+
+.blog-details ul li,
+.blog-details ol li {
+    margin-bottom: 10px;
+}
+
+.slide.background-withcolor {
+    background: url(../img/slider.png) no-repeat center;
+    background-size: cover;
+}
+
+.slide.background-withcolor::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+     background: linear-gradient(45deg, #F3DA4C, #000); 
+    /* background-color: #F3DA4C; */
+    opacity: 0.80;
+}
+/* .foxapp-header {
+    top: 0;
+    background-color: #FFF;
+}
+
+.foxapp-header .navbar .navbar-nav .nav-item > .nav-link {
+    color: #55b949;
+}
+
+.foxapp-header .navbar .navbar-nav .nav-item > .nav-link::before { 
+    background-color: #55b949;
+} */
+
+#boxes .box {
+    background: transparent;
+    transition: all 0.3s linear;
+}
+
+.boxes .box .icon {
+    background: #F3DA4C;
+    color: #FFF;
+}
+
+.boxes .box .lnr {
+    color: #FFF !important;
+}
+
+.boxes .box h4,
+.boxes .box p {
+    color: #333;
+}
+
+#boxes .box:hover {
+    background: #f7f7f7;
+}
+
+#boxes .box:hover .lnr {
+    color: #FFF !important;
+}
+
+.foxapp-header.sticky {
+    background: white !important;
+}
+
+.foxapp-header.sticky .navbar .navbar-nav .nav-item > .nav-link::before { 
+    background-color: #F3DA4C;
+}
+
+.foxapp-header .navbar .navbar-nav .nav-item > .nav-link {
+    font-weight: bold;
+    color: #FFF !important;
+}
+
+.foxapp-header.sticky .navbar .navbar-nav .nav-item > .nav-link {
+    color: #F3DA4C !important;
+}
+
+.download-app a,
+.btn-theme {
+    color: #FFF !important;
+    background: #F3DA4C !important;
+}
+
+.download-app a:hover,
+.btn-theme:hover {
+    background: #FFF !important;
+    color: #F3DA4C !important;
+}
+
+.git-in-touch .form-group .form-control {
+    border-bottom-color: #F3DA4C !important;
+}
+
+.btn-theme.btn-colord:before {
+    display: none;
+}
+
+.preloader {
+    background: #F3DA4C !important;
+}
+
+@media(max-width: 992px) {
+    .foxapp-header {
+        background: #F3DA4C !important;
+        top: 0 !important;
+    }
+
+    .navbar-light .navbar-brand img {
+        filter: brightness(0) invert(1);
+    }
+
+    .foxapp-header.sticky .navbar-light .navbar-brand img {
+        filter: none !important
+    }
+
+    .foxapp-header.sticky .navbar-light .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml,%3csvg width='30' height='30' viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(243, 218, 76)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    }
+
+    .foxapp-header.sticky .navbar-light .navbar-toggler {
+        border-color: #F3DA4C !important;
+    }
+
+    .features-circle .circle-svg svg {
+        max-width: 100%;
+    }
+
+    footer .copyright p {
+        text-align: center;
+    }
+}
+
+@media(max-width: 768px) {
+    .copyright .nav {
+        justify-content: center !important;
+    }
+} 
+
+@media(max-width: 500px) {
+    .download-app a {
+        width: 100%;
+        margin-left: 0;
+        margin-bottom: 15px;
+    }
+}
